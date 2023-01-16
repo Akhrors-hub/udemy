@@ -31,6 +31,9 @@ const Menu = styled.div`
 cursor: pointer;
 padding:0px 11px;
 font-size:14px;
+&:hover{
+    color:RebeccaPurple;
+}
 `
 const Center = styled.div`
 flex:1;
@@ -85,7 +88,9 @@ padding: 5px 5px;
 width: 45px;
 height: 40px;
   cursor: pointer;
- 
+ align-items: center;
+ justify-content: center;
+ display: flex;
   border:1px solid black;
   &:hover{
     background-color: whitesmoke;
